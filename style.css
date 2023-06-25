@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+   width: 100%;
+   height: 100%;
+   margin-bottom: 30px;
+}
+
+.container .header{
+    width:100%;
+    background: white;
+    border: 1px solid cornflowerblue;
+    color: black;
+    text-align: center;
+    padding: 30px 0;
+    margin: 50px 0;
+}
+.container .header .container{
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+.row{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+.card{
+    border: 1px solid cornflowerblue;
+}
+span{
+    font-weight: 800;
+    font-size: 18px;
+    color:rgb(95, 133, 204);
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+
+.content form {
+    width: 500px;
+}
+.content form .mb-3{
+    width: 90%;
+    margin: 0 auto;
+}
+.content form .mb-3 input{
+    border: 1px solid cornflowerblue;
+}
+.content form .mb-3 input:focus{
+    outline: none;
+}
+.btn{
+    margin: 30px ;
+}
+.outputs{
+    text-align: center;
+}
+.card-body{
+    text-align: left;
+}
+
+
+.card-body p {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container .content .inputs{
+    width: 650px;
+    height: 150px;
+    text-align: center;
+    background: cadetblue;
+    color: aliceblue;
+    padding: 20px 0;
+}
+.container .content .inputs p{
+    margin:22px 0;
+    font-size: 20px;
+}
+.container .content h1{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.container .content .inputs form input{
+    border: 0;
+    width: 80px;
+    height: 40px;
+    padding: 0 10px;  
+    text-align: center;
+}
+.container .content .inputs form button{
+    border: 1px solid #e0dfdf;
+    width: 150px;
+    height: 40px;
+    padding: 0 10px;  
+    background-color: transparent;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 16px;
+}
+.outputs{
+    width: 650px;
+    height: 100px;
+    text-align: center;
+    background: rgb(101, 102, 102);
+    color: aliceblue;
+    padding: 20px 0;
+}
+.outputs h2{
+    font-size: 32px;
+} */
